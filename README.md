@@ -116,3 +116,20 @@ and answer the questions with:
 ✔ Application name                    · box
 ✔ Default stylesheet format           · scss
 ```
+## Create a shared lib
+```
+npx nx g @nrwl/angular:lib shared
+```
+## Create a message component in shared
+```
+npx nx g component message --project=shared --export
+```
+### Import the shared module into the app
+```
+import {SharedModule} from '@nrwl-nx-a13-test/shared';
+
+  imports: [
+      BrowserModule,
+      SharedModule
+  ],
+```
