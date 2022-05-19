@@ -18,5 +18,7 @@
       }
     }
   },
-  "tags": []
+  "tags": [
+    "scope:shared"
+  ]
 }

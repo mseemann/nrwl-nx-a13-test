@@ -146,3 +146,7 @@ npx nx g @nrwl/angular:lib feature-b
 * see how effected works: run npx nx affected:apps and npx nx affected:libs, then change something and run them again
 * run npx nx affected:test then change something and run it again
 * you can see what is affected: nx affected:graph
+
+# Ensure project boundaries are valid
+- see project.json tags and the rules in .eslintrc.json
+- Add FeatureAModule ro Feature B - and run lint

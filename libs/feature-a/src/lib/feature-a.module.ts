@@ -5,6 +5,9 @@ import {SharedModule} from '@nrwl-nx-a13-test/shared';
 
 @NgModule({
     imports: [CommonModule, SharedModule],
-  declarations: [AComponentComponent],
+    declarations: [AComponentComponent],
+    exports: [
+        AComponentComponent
+    ]
 })
 export class FeatureAModule {}
