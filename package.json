@@ -8,7 +8,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "e2e": "nx e2e box-e2e --watch"
+    "e2e": "nx e2e box-e2e --watch",
+    "lint:all": "nx affected:lint"
   },
   "private": true,
   "dependencies": {
