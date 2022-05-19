@@ -139,3 +139,9 @@ import {SharedModule} from '@nrwl-nx-a13-test/shared';
 npx nx g @nrwl/angular:lib feature-a
 npx nx g @nrwl/angular:lib feature-b
 ```
+* serve the app and switch between the features (links)
+* run ng build twice to see the cache 
+* change something and run build again
+
+* see how effected works: run npx nx affected:apps and npx nx affected:libs, then change something and run them again
+* run npx nx affected:test then change something and run it again
