@@ -21,7 +21,5 @@
       }
     }
   },
-  "tags": [
-    "scope:feature"
-  ]
+  "tags": ["scope:feature"]
 }
