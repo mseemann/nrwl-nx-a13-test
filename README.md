@@ -133,3 +133,9 @@ import {SharedModule} from '@nrwl-nx-a13-test/shared';
       SharedModule
   ],
 ```
+## Create two new feature libs
+
+```
+npx nx g @nrwl/angular:lib feature-a
+npx nx g @nrwl/angular:lib feature-b
+```

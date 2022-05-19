@@ -4,6 +4,8 @@
   "projects": {
     "box": "apps/box",
     "box-e2e": "apps/box-e2e",
+    "feature-a": "libs/feature-a",
+    "feature-b": "libs/feature-b",
     "shared": "libs/shared"
   }
 }
