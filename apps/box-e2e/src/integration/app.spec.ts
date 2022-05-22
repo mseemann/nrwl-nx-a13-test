@@ -1,13 +1,13 @@
-import { getGreeting } from '../support/app.po';
-
 describe('box', () => {
   beforeEach(() => cy.visit('/'));
 
-  it('should display welcome message', () => {
-    // Custom command example, see `../support/commands.ts` file
-    cy.login('my-email@something.com', 'myPassword');
+  it('should navigate to feature a', () => {
+    cy.get('a[href="/feature-a"]')
+        .should('exist')
+        .click();
 
-    // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome box');
+    cy.get('[data-cy="test"]')
+        .should('exist');
+
   });
 });
