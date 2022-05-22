@@ -149,4 +149,4 @@ npx nx g @nrwl/angular:lib feature-b
 
 # Ensure project boundaries are valid
 - see project.json tags and the rules in .eslintrc.json
-- Add FeatureAModule ro Feature B - and run lint
+- Add FeatureAModule to Feature B - and run lint
