@@ -8,6 +8,7 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
+    "test:all": "nx run-many --all --target=test",
     "e2e": "nx e2e box-e2e --watch",
     "lint:all": "nx affected:lint"
   },
